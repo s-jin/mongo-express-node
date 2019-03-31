@@ -1,0 +1,14 @@
+<% include ./partials/header %>
+<div class = "container">
+    <div class = "row text-center">
+        <h1>Login!</h1>
+        <div style= "width: 30%; margin:30px auto;">
+            <form action = "/login" method = "post">
+                <input class = "form-control form-group" type = "text" name= "username" placeholder= "username" required>
+                <input class = "form-control form-group" type = "password" name= "password" placeholder= "password" required>
+                <div class = "form-group"><button class = "btn btn-lg btn-primary btn-block">Login!</button></div>
+            </form>
+        </div>
+    </div>
+</div>
+<% include ./partials/footer %>
