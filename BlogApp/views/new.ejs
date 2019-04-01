@@ -4,15 +4,15 @@
     <form class = "ui form" action = "/blogs" method = "POST">
         <div class = "field">
             <label>Title</label>
-            <input type = "text" name = "blog[title]" placeholder = "Title">
+            <input type = "text" name = "blog[title]" placeholder = "Title" required >
         </div>
         <div class = "field">
             <label>Image</label>
-            <input type = "text" name = "blog[image]" placeholder = "Image URL">
+            <input type = "text" name = "blog[image]" placeholder = "Image URL" required>
         </div>
         <div class = "field">
             <label>Blog Content</label> 
-            <textarea name = "blog[body]" placeholder = "Blog post content"></textarea>
+            <textarea name = "blog[body]" placeholder = "Blog post content" required></textarea>
         </div>    
         <input class = "ui violet big inverted button" type = "Submit">  
     </form>
