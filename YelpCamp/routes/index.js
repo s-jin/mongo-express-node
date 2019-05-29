@@ -5,7 +5,7 @@ var passport = require("passport");
 var middleware = require("../middleware/index");
 
 router.get("/", function(req, res){
-   res.redirect("/campgrounds");
+   res.render("landing");
 });
 
 //show register form

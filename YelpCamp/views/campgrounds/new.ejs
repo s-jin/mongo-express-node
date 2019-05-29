@@ -5,6 +5,7 @@
         <div style= "width: 30%; margin:30px auto;">
             <form action= "/campgrounds" method = "POST">
                 <input class = "form-control form-group" type = "text" name = "newCamp" placeholder = "Campground Name" required>
+                <input class = "form-control form-group" type = "number" name = "price" placeholder = "Price per night" min = "0.01" step = "0.01" required>
                 <input class = "form-control form-group" title = "Default image URL" type = "text" name = "newImg" placeholder = "Image url" value = "https://images.unsplash.com/photo-1469827160215-9d29e96e72f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" required>
                 <textarea rows = "15" class = "form-control form-group" name = "newDesc" placeholder = "Campground Description" required></textarea>
                 <div class = "form-group"><button class = "btn btn-lg btn-primary btn-block">Submit</button></div>
